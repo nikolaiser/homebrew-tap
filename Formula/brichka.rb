@@ -1,25 +1,25 @@
 class Brichka < Formula
   desc "Cli tools for databricks"
   homepage "https://github.com/nikolaiser/brichka"
-  version "0.2.3"
+  version "0.2.4"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/nikolaiser/brichka/releases/download/v0.2.3/brichka-aarch64-apple-darwin.tar.xz"
-      sha256 "dab0988f72c74faf5243fe466178704a469c455adb5c031019520c96fc479b1d"
+      url "https://github.com/nikolaiser/brichka/releases/download/v0.2.4/brichka-aarch64-apple-darwin.tar.xz"
+      sha256 "263f241442b04458982010a315734cf7908f21502ae344bcee54dcc3bf7e677b"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/nikolaiser/brichka/releases/download/v0.2.3/brichka-x86_64-apple-darwin.tar.xz"
-      sha256 "0dc53965f3a84d91cd360563d6848440ab9f03cd40999134bd0e7401d24e11f5"
+      url "https://github.com/nikolaiser/brichka/releases/download/v0.2.4/brichka-x86_64-apple-darwin.tar.xz"
+      sha256 "fe847a4600fb74c58177a77d2954855f2c2aa32af832e59c42e3ea7fdf943a2e"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/nikolaiser/brichka/releases/download/v0.2.3/brichka-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "b423f53f1de48be197abc816622f52bfe9a2c6f08cec376c3c3874123ec1495d"
+      url "https://github.com/nikolaiser/brichka/releases/download/v0.2.4/brichka-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "5f9f4cdddca0f82d96c926b436901cc53c530adb4da36f1db66a6cd52eee8479"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/nikolaiser/brichka/releases/download/v0.2.3/brichka-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "823987892b593a14de060040deec99f570305472c9f1158f0fd43547aec865cb"
+      url "https://github.com/nikolaiser/brichka/releases/download/v0.2.4/brichka-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "413aa154cedaa9c745a0e97e00e61175ef69b685252685e41069f87bc4e17010"
     end
   end
 
